@@ -62,8 +62,10 @@ let s:string=''
 for (let i:number=st1.length-1; i>=0; i--)
 {
     s=s+st1[i]
+    console.log(s)
     }
 console.log(s)
 
 let str12:string = "Rajesh"; 
 const reversed: string = [...str12].reverse().join(''); console.log(reversed);
+console.log(reversed)
