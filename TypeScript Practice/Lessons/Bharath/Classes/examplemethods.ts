@@ -13,9 +13,10 @@ class Demo
            }
            else
            {
-            console.log("course is $x and book is $y ")
+            console.log(`course is ${x} and book is ${y}`)
            }
 
     }
 }
-let dem = new Demo(202, 101);
+let dem = new Demo();
+dem.sum(20,'hello')
