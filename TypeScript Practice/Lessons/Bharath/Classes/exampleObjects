@@ -1,0 +1,12 @@
+//Object type object creation
+//By using "Objhect" type: It directly defines the values for varaiable.
+
+
+let student1:object= 
+{
+    name: "Rajesh",
+    id: 202,
+    phone: 9885810148,
+    address: '4851 Gardent'
+}
+console.log(student1)

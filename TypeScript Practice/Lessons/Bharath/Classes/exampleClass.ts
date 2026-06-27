@@ -7,7 +7,7 @@ class Employee
     ename:string;
     eemail:string;
 
-    constructor(id:number, name:string, email:string)
+    constructor(id:number, name:string, email:string)  //constructor 
     {
         this.eid=id;
         this.ename=name;
