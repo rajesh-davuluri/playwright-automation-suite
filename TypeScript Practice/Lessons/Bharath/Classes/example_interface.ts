@@ -57,13 +57,13 @@ interface book{
 let b1:book=
 {
     title:'Playwright',
-    price:25000
+    price:25000,
     display()
     {
-        console.log(`book name is ${title} and the cost is ${price}`)
+        console.log(`book name is ${this.title} and the cost is ${this.price}`)
     }
 }
-
+console.log(b1.display())
 
 //How to extends the interface in Typescript
 interface Animal

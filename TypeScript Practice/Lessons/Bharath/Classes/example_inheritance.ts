@@ -42,4 +42,5 @@ class Honda extends car
         console.log('Honda car is Stopped..')
     }
 }
- cardetail = new Honda()
+ let cardetail = new Honda();
+ console.log(cardetail.start())
